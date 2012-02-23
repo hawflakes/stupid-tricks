@@ -1,0 +1,6 @@
+#Stupid SQL Tricks
+
+#date in SQL:
+	date(DATE_SUB(FROM_UNIXTIME(time_created), interval 7 hour)) day
+# Source: Erik Klein: fyi.. I use this for day in sql. 
+
